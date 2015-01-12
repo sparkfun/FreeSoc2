@@ -25544,6 +25544,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".2_INCH"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25589,7 +25590,7 @@ are all DNP</text>
 <text x="114.3" y="93.98" size="2.54" layer="94">Quadrant 3</text>
 <text x="113.792" y="31.496" size="2.54" layer="94">Port 12 (SIO pins)</text>
 <text x="165.1" y="7.62" size="3.81" layer="94">M. Hord</text>
-<text x="237.998" y="6.858" size="3.81" layer="94">01</text>
+<text x="237.998" y="6.858" size="3.81" layer="94">02</text>
 <text x="1.016" y="1.27" size="1.778" layer="94">Developed with help from Jon Moeller
 and Cypress Semiconductor</text>
 <text x="68.58" y="101.6" size="1.778" layer="94">USER
@@ -26844,7 +26845,7 @@ Caps</text>
 <wire x1="121.92" y1="185.42" x2="124.46" y2="185.42" width="0.3048" layer="94" style="longdash"/>
 <wire x1="124.46" y1="185.42" x2="124.46" y2="109.22" width="0.3048" layer="94" style="longdash"/>
 <text x="165.1" y="7.62" size="3.81" layer="94">M. Hord</text>
-<text x="237.998" y="6.858" size="3.81" layer="94">01</text>
+<text x="237.998" y="6.858" size="3.81" layer="94">02</text>
 <text x="58.42" y="12.7" size="3.81" layer="94">Power Supply
 2.5V - 12V</text>
 <text x="91.44" y="86.36" size="1.778" layer="94">Open to isolate
@@ -27532,7 +27533,23 @@ I/O Quadrants</text>
 <wire x1="147.32" y1="96.52" x2="147.32" y2="185.42" width="0.3048" layer="94" style="longdash"/>
 <wire x1="147.32" y1="96.52" x2="248.92" y2="96.52" width="0.3048" layer="94" style="longdash"/>
 <text x="165.1" y="7.62" size="3.81" layer="94">M. Hord</text>
-<text x="237.998" y="6.858" size="3.81" layer="94">01</text>
+<text x="237.998" y="6.858" size="3.81" layer="94">02</text>
+<wire x1="109.982" y1="92.71" x2="111.252" y2="92.71" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="111.252" y1="92.71" x2="111.252" y2="87.63" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="111.252" y1="87.63" x2="109.982" y2="87.63" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="111.506" y1="90.17" x2="117.094" y2="90.17" width="0.1524" layer="94" style="shortdash"/>
+<text x="117.856" y="90.17" size="1.778" layer="94" align="center-left">DEBUGGER ID PINS</text>
+<wire x1="41.402" y1="163.83" x2="46.228" y2="163.83" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="46.228" y1="163.83" x2="46.228" y2="158.75" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="46.228" y1="158.75" x2="46.228" y2="153.67" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="46.228" y1="153.67" x2="41.402" y2="153.67" width="0.1524" layer="94" style="shortdash"/>
+<wire x1="46.228" y1="158.75" x2="48.006" y2="158.75" width="0.1524" layer="94" style="shortdash"/>
+<text x="48.514" y="158.75" size="1.778" layer="94" align="center-left">DEBUGGER ID PINS</text>
+<text x="81.28" y="43.18" size="1.778" layer="94" align="center-left">DEBUGGER ID PINS
+These pins are used to allow the KitProg firmware
+on the debug IC to identify the type of kit. 
+For the FreeSoc2, this is P3.3, P3.2, P0.6 and P0.4 left
+floating and P0.7 and P0.5 grounded.</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -27583,6 +27600,7 @@ I/O Quadrants</text>
 <attribute name="VALUE" x="200.66" y="86.36" size="1.778" layer="96"/>
 </instance>
 <instance part="GND12" gate="1" x="228.6" y="111.76"/>
+<instance part="GND28" gate="1" x="43.18" y="142.24"/>
 </instances>
 <busses>
 </busses>
@@ -27725,6 +27743,16 @@ I/O Quadrants</text>
 <junction x="127" y="10.16"/>
 <wire x1="116.84" y1="10.16" x2="127" y2="10.16" width="0.1524" layer="91" style="longdash"/>
 <junction x="116.84" y="10.16"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G1" pin="P0[5]"/>
+<wire x1="40.64" y1="160.02" x2="43.18" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="160.02" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G1" pin="P0[7]"/>
+<wire x1="43.18" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="154.94" x2="43.18" y2="144.78" width="0.1524" layer="91"/>
+<junction x="43.18" y="154.94"/>
+<pinref part="GND28" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$14" class="0">
