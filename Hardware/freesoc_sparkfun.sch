@@ -137,7 +137,7 @@
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
-<schematic xreflabel="%F%N/%S" xrefpart="1_/%S.%C%R">
+<schematic xreflabel="%F%N/%S" xrefpart="/%S.%C%R">
 <libraries>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
@@ -26019,9 +26019,9 @@ LED</text>
 <label x="208.28" y="81.28" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="1"/>
-<wire x1="132.08" y1="25.4" x2="129.54" y2="25.4" width="0.1524" layer="91"/>
-<label x="129.54" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP10" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="22.86" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
+<label x="129.54" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -26140,10 +26140,10 @@ LED</text>
 <junction x="208.28" y="45.72"/>
 </segment>
 <segment>
-<pinref part="JP10" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="22.86" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="22.86" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="25.4" x2="119.38" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="GND20" gate="1" pin="GND"/>
+<pinref part="JP10" gate="G$1" pin="1"/>
+<wire x1="132.08" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S6" gate="G$1" pin="2"/>
@@ -26234,27 +26234,6 @@ LED</text>
 <pinref part="JP17" gate="G$1" pin="8"/>
 <wire x1="30.48" y1="17.78" x2="33.02" y2="17.78" width="0.1524" layer="91"/>
 <label x="33.02" y="17.78" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="P1.5" class="0">
-<segment>
-<pinref part="U1" gate="G2" pin="P1[5]"/>
-<wire x1="43.18" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
-<label x="48.26" y="73.66" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="P1.6" class="0">
-<segment>
-<pinref part="U1" gate="G2" pin="P1[6]"/>
-<wire x1="43.18" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
-<label x="48.26" y="71.12" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="P1.7" class="0">
-<segment>
-<pinref part="U1" gate="G2" pin="P1[7]"/>
-<wire x1="43.18" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
-<label x="48.26" y="68.58" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="P5.0" class="0">
