@@ -27488,11 +27488,11 @@ battery operation</text>
 </sheet>
 <sheet>
 <plain>
-<text x="53.34" y="99.822" size="1.27" layer="94" align="center-left">SWD Pins to 
+<text x="55.88" y="145.542" size="1.27" layer="94" align="center-left">SWD Pins to 
 Target PSoC5LP</text>
-<text x="53.34" y="96.52" size="1.27" layer="94" align="center-left">SWDIO</text>
-<text x="53.34" y="93.98" size="1.27" layer="94" align="center-left">SWDCK</text>
-<text x="53.34" y="86.36" size="1.27" layer="94" align="center-left">!RESET</text>
+<text x="55.88" y="152.4" size="1.27" layer="94" align="center-left">SWDIO</text>
+<text x="55.88" y="149.86" size="1.27" layer="94" align="center-left">SWDCK</text>
+<text x="53.34" y="76.2" size="1.27" layer="94" align="center-left">!RESET</text>
 <text x="54.61" y="24.13" size="1.4224" layer="94">C19 &amp; C22 to be
 near U7.59</text>
 <text x="128.27" y="24.13" size="1.4224" layer="94">C23 &amp; C20 to be
@@ -27550,6 +27550,8 @@ These pins are used to allow the KitProg firmware
 on the debug IC to identify the type of kit. 
 For the FreeSoc2, this is P3.3, P3.2, P0.6 and P0.4 left
 floating and P0.7 and P0.5 grounded.</text>
+<text x="53.34" y="79.502" size="1.27" layer="94" align="center-left">SWD Pins to 
+Target PSoC5LP</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
@@ -28110,23 +28112,23 @@ floating and P0.7 and P0.5 grounded.</text>
 </net>
 <net name="P1.0" class="0">
 <segment>
-<pinref part="U7" gate="G3" pin="P2[0]"/>
-<wire x1="40.64" y1="96.52" x2="43.18" y2="96.52" width="0.1524" layer="91"/>
-<label x="43.18" y="96.52" size="1.27" layer="95" xref="yes"/>
+<label x="45.72" y="152.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="U7" gate="G1" pin="P12[2]"/>
+<wire x1="40.64" y1="152.4" x2="45.72" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="P1.1" class="0">
 <segment>
-<pinref part="U7" gate="G3" pin="P2[1]"/>
-<wire x1="40.64" y1="93.98" x2="43.18" y2="93.98" width="0.1524" layer="91"/>
-<label x="43.18" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="45.72" y="149.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="U7" gate="G1" pin="P12[3]"/>
+<wire x1="40.64" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
-<pinref part="U7" gate="G3" pin="P2[4]"/>
-<wire x1="40.64" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
-<label x="43.18" y="86.36" size="1.27" layer="95" xref="yes"/>
+<label x="43.18" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="U7" gate="G3" pin="P12[4]"/>
+<wire x1="43.18" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DEBUG_SAR1_BP" class="0">
