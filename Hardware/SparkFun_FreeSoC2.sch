@@ -25788,10 +25788,18 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="C13" library="SparkFun-Capacitors" deviceset="0.1UF-16V(+-10%)(0402)" device="" value="0.1uF"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF-16V(+-10%)(0402)" device="" value="0.1uF"/>
-<part name="JP4" library="SparkFun-Connectors" deviceset="M06" device="SIP_LOCK" value="1X6 FEMALE PTH"/>
-<part name="JP5" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="1X8 FEMALE PTH"/>
-<part name="JP6" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="1X8 FEMALE PTH"/>
-<part name="JP7" library="SparkFun-Connectors" deviceset="M10" device="LOCK" value="1X10 FEMALE PTH"/>
+<part name="JP4" library="SparkFun-Connectors" deviceset="M06" device="SIP_LOCK" value="1X6 FEMALE PTH">
+<attribute name="PROD_ID" value="CONN-08437"/>
+</part>
+<part name="JP5" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="1X8 FEMALE PTH">
+<attribute name="PROD_ID" value="CONN-08438"/>
+</part>
+<part name="JP6" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="1X8 FEMALE PTH">
+<attribute name="PROD_ID" value="CONN-08438"/>
+</part>
+<part name="JP7" library="SparkFun-Connectors" deviceset="M10" device="LOCK" value="1X10 FEMALE PTH">
+<attribute name="PROD_ID" value="CONN-11563"/>
+</part>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP8" library="SparkFun-Connectors" deviceset="M06X2" device="PTH_FEMALE" value="2X6 FEMALE"/>
@@ -25858,8 +25866,12 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH_LOCK" value="SPDT"/>
-<part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH_LOCK" value="SPDT"/>
+<part name="S3" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH_LOCK" value="SPDT">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+</part>
+<part name="S4" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH_LOCK" value="SPDT">
+<attribute name="PROD_ID" value="SWCH-08261"/>
+</part>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
@@ -25892,7 +25904,9 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="SJ3" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device=""/>
 <part name="SJ4" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device=""/>
 <part name="SJ5" library="SparkFun-Passives" deviceset="JUMPER-PAD-2-NO" device=""/>
-<part name="JP10" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="1x8 FEMALE PTH"/>
+<part name="JP10" library="SparkFun-Connectors" deviceset="M08" device="LOCK" value="1x8 FEMALE PTH">
+<attribute name="PROD_ID" value="CONN-08438"/>
+</part>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
@@ -25991,10 +26005,18 @@ LED</text>
 <instance part="U1" gate="G2" x="7.62" y="40.64"/>
 <instance part="U1" gate="G3" x="116.84" y="124.46"/>
 <instance part="U1" gate="G4" x="116.84" y="48.26"/>
-<instance part="JP4" gate="G$1" x="238.76" y="170.18" rot="R180"/>
-<instance part="JP5" gate="G$1" x="203.2" y="167.64" rot="R180"/>
-<instance part="JP6" gate="G$1" x="238.76" y="137.16" rot="R180"/>
-<instance part="JP7" gate="G$1" x="208.28" y="127" rot="R180"/>
+<instance part="JP4" gate="G$1" x="238.76" y="170.18" rot="R180">
+<attribute name="PROD_ID" x="238.76" y="170.18" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="JP5" gate="G$1" x="203.2" y="167.64" rot="R180">
+<attribute name="PROD_ID" x="203.2" y="167.64" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="JP6" gate="G$1" x="238.76" y="137.16" rot="R180">
+<attribute name="PROD_ID" x="238.76" y="137.16" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="JP7" gate="G$1" x="208.28" y="127" rot="R180">
+<attribute name="PROD_ID" x="208.28" y="127" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND21" gate="1" x="182.88" y="114.3"/>
 <instance part="GND22" gate="1" x="213.36" y="127"/>
 <instance part="JP8" gate="G$1" x="76.2" y="157.48" smashed="yes">
@@ -26032,7 +26054,9 @@ LED</text>
 <instance part="Y2" gate="G$1" x="213.36" y="60.96"/>
 <instance part="GND10" gate="1" x="175.26" y="40.64"/>
 <instance part="GND11" gate="1" x="208.28" y="40.64"/>
-<instance part="JP10" gate="G$1" x="137.16" y="17.78" rot="R180"/>
+<instance part="JP10" gate="G$1" x="137.16" y="17.78" rot="R180">
+<attribute name="PROD_ID" x="137.16" y="17.78" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND20" gate="1" x="119.38" y="5.08"/>
 <instance part="STANDOFF1" gate="G$1" x="243.84" y="25.4"/>
 <instance part="STANDOFF2" gate="G$1" x="241.3" y="25.4"/>
@@ -27298,10 +27322,12 @@ battery operation</text>
 <instance part="S3" gate="1" x="172.72" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="174.625" y="97.79" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="182.88" y="97.79" size="1.778" layer="96" rot="R180"/>
+<attribute name="PROD_ID" x="172.72" y="91.44" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="S4" gate="1" x="172.72" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="174.625" y="85.09" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="182.88" y="85.09" size="1.778" layer="96" rot="R180"/>
+<attribute name="PROD_ID" x="172.72" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="50.8" y="179.07"/>
 <instance part="GND5" gate="1" x="17.78" y="60.96"/>
