@@ -28005,6 +28005,9 @@ For the FreeSoc2, this is P3.3, P3.2, P0.6 and P0.4 left
 floating and P0.7 and P0.5 grounded.</text>
 <text x="53.086" y="80.772" size="1.27" layer="97" align="center-left">Reset Pin
 Target PSoC5LP</text>
+<text x="17.78" y="56.388" size="1.016" layer="97">Normally open jumpers
+Close to connect debugger
+to target via I2C</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
