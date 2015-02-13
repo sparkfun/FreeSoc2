@@ -64,6 +64,8 @@
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -97,6 +99,7 @@
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
@@ -16330,10 +16333,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="67" x="-2.8" y="3.9" dx="0.6" dy="0.2" layer="1" rot="R90"/>
 <smd name="68" x="-3.2" y="3.9" dx="0.6" dy="0.2" layer="1" rot="R90"/>
 <smd name="69" x="0" y="0" dx="5.7" dy="5.7" layer="1" cream="no"/>
-<rectangle x1="-2.5" y1="1.25" x2="-1.25" y2="2.5" layer="31"/>
-<rectangle x1="1.25" y1="1.25" x2="2.5" y2="2.5" layer="31"/>
-<rectangle x1="-2.5" y1="-2.5" x2="-1.25" y2="-1.25" layer="31"/>
-<rectangle x1="1.25" y1="-2.5" x2="2.5" y2="-1.25" layer="31"/>
 <rectangle x1="-0.5" y1="1.5" x2="0.5" y2="2.5" layer="31"/>
 <rectangle x1="-0.5" y1="-0.5" x2="0.5" y2="0.5" layer="31"/>
 <rectangle x1="-0.5" y1="-2.5" x2="0.5" y2="-1.5" layer="31"/>
@@ -25758,7 +25757,7 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <attribute name="DESIGNER" value="M. Hord"/>
 <attribute name="VERSION" value="v10"/>
 </part>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="PSOC_5LP_100QFP" device="" value="CY8C5888AXI-LP035"/>
+<part name="U1" library="SparkFun-DigitalIC" deviceset="PSOC_5LP_100QFP" device="" value="CY8C5888AXI-LP096"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="MBRA140" device=""/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="MBRA140" device=""/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="MBRA140" device=""/>
