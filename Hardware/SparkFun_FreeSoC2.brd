@@ -9,8 +9,8 @@
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -20,23 +20,23 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
@@ -339,6 +339,8 @@ ISO</text>
 Dev Board</text>
 <text x="54.737" y="35.814" size="0.8128" layer="21" font="vector" ratio="15">CY8C5888AXI-LP096</text>
 <text x="27.813" y="26.543" size="0.8128" layer="21" font="vector" ratio="15">CY8C5868LTI-LP039</text>
+<text x="2.413" y="17.272" size="1.4224" layer="16" font="vector" ratio="15" rot="MR270">v11</text>
+<text x="62.23" y="-27.94" size="1.778" layer="51" ratio="15">Mike Hord</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -350,13 +352,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
-<text x="29.21" y="10.16" size="1.27" layer="16" font="vector" ratio="15" rot="SMR0">&gt;VERSION</text>
-<text x="26.67" y="0" size="1.778" layer="51">&gt;DESIGNER</text>
-</package>
 <package name="FOUR_LAYER_WARNING">
 <text x="0" y="0" size="1.27" layer="51">THIS IS A FOUR-LAYER BOARD!</text>
 </package>
@@ -1460,6 +1455,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
+</package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
 </package>
 </packages>
 </library>
@@ -2767,10 +2770,6 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="20.32" y="-27.94" smashed="yes">
-<attribute name="VERSION" value="v10" x="1.27" y="13.97" size="1.27" layer="16" font="vector" ratio="15" rot="SMR90"/>
-<attribute name="DESIGNER" value="M. Hord" x="46.99" y="-27.94" size="1.778" layer="51"/>
-</element>
 <element name="U1" library="SparkFun-DigitalIC" package="TQFP-100-14X14MM" value="CY8C5888AXI-LP096" x="60.96" y="26.67">
 <attribute name="PROD_ID" value="IC-12190" x="60.96" y="26.67" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
@@ -2782,10 +2781,6 @@ design rules under a new name.</description>
 </element>
 <element name="D3" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="MBRA140" x="11.43" y="17.78">
 <attribute name="PROD_ID" value="DIO-08053" x="-1.27" y="10.16" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="20.32" y="-27.94" smashed="yes">
-<attribute name="VERSION" value="v10" x="49.53" y="-17.78" size="1.27" layer="16" font="vector" ratio="15" rot="SMR0" display="off"/>
-<attribute name="DESIGNER" value="M. Hord" x="46.99" y="-27.94" size="1.778" layer="51" display="off"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="JST-2-PTH" value="M02JST-PTH-2" x="8.89" y="46.99">
 <attribute name="SKU" value="PRT-09914" x="8.89" y="46.99" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
@@ -2867,10 +2862,6 @@ design rules under a new name.</description>
 </element>
 <element name="D4" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="MBRA140" x="15.621" y="49.149">
 <attribute name="PROD_ID" value="DIO-08053" x="15.621" y="49.149" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-</element>
-<element name="FRAME3" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="20.32" y="-27.94" smashed="yes">
-<attribute name="VERSION" value="v10" x="49.53" y="-17.78" size="1.27" layer="16" font="vector" ratio="15" rot="SMR0" display="off"/>
-<attribute name="DESIGNER" value="M. Hord" x="46.99" y="-27.94" size="1.778" layer="51" display="off"/>
 </element>
 <element name="U7" library="SparkFun-DigitalIC" package="QFN-68" value="CY8C5868LTI-LP039" x="27.94" y="33.02" rot="R90">
 <attribute name="PROD_ID" value="IC-12391" x="27.94" y="33.02" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
@@ -3082,6 +3073,19 @@ design rules under a new name.</description>
 </element>
 <element name="SJ6" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="43.18" y="43.815" rot="R180"/>
 <element name="SJ7" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="43.18" y="41.91" rot="R180"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="" x="-15.24" y="-15.24">
+<attribute name="VERSION" value="v01" x="-15.24" y="-15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="DESIGNER" value="Nobody" x="-15.24" y="-15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="FRAME2" library="SparkFun-Aesthetics" package="DUMMY" value="" x="-15.24" y="-16.51">
+<attribute name="VERSION" value="v01" x="-15.24" y="-16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="DESIGNER" value="Nobody" x="-15.24" y="-16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="FRAME3" library="SparkFun-Aesthetics" package="DUMMY" value="" x="-15.24" y="-17.78">
+<attribute name="VERSION" value="v01" x="-15.24" y="-17.78" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="DESIGNER" value="Nobody" x="-15.24" y="-17.78" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+</element>
+<element name="U$2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="35.56" y="-27.94"/>
 </elements>
 <signals>
 <signal name="VDDIO_ARDUINO" class="2">
