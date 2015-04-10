@@ -25909,15 +25909,11 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
-<part name="C37" library="SparkFun-Capacitors" deviceset="0.1UF-16V(+-10%)(0402)" device="" value="0.1uF"/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C38" library="SparkFun-Capacitors" deviceset="0.1UF-16V(+-10%)(0402)" device="" value="0.1uF"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="4.7KOHM-1/10W-1%(0603)" device="" value="4.7K"/>
 <part name="SUPPLY14" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY15" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY16" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="20KOHM1/10W1%(0603)" device="" value="20k"/>
@@ -25955,8 +25951,8 @@ Functionality</text>
 <text x="165.1" y="137.16" size="1.27" layer="97" align="center-left">SPI SCK</text>
 <text x="165.1" y="127" size="1.27" layer="97" align="center-left">ADC0</text>
 <text x="165.1" y="129.54" size="1.27" layer="97" align="center-left">ADC1</text>
-<text x="165.1" y="154.94" size="1.27" layer="97" align="center-left">ADC5, SDA</text>
-<text x="165.1" y="152.4" size="1.27" layer="97" align="center-left">ADC4, SCL</text>
+<text x="165.1" y="154.94" size="1.27" layer="97" align="center-left">ADC5, SCL</text>
+<text x="165.1" y="152.4" size="1.27" layer="97" align="center-left">ADC4, SDA</text>
 <text x="165.1" y="147.32" size="1.27" layer="97" align="center-left">ADC2</text>
 <text x="165.1" y="149.86" size="1.27" layer="97" align="center-left">ADC3</text>
 <wire x1="111.76" y1="185.42" x2="111.76" y2="111.76" width="0.3048" layer="97" style="longdash"/>
@@ -25985,7 +25981,7 @@ BUTTON</text>
 <text x="166.116" y="115.316" size="1.778" layer="97">USER
 LED</text>
 <text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="238.76" y="6.096" size="3.81" layer="91">11</text>
+<text x="238.76" y="6.096" size="3.81" layer="91">12</text>
 </plain>
 <instances>
 <instance part="U1" gate="G1" x="7.62" y="129.54"/>
@@ -27239,7 +27235,7 @@ diode for low-V
 battery operation</text>
 <text x="35.56" y="17.78" size="1.778" layer="97">JP3 is DNP</text>
 <text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="238.252" y="6.096" size="3.81" layer="91">11</text>
+<text x="238.252" y="6.096" size="3.81" layer="91">12</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="76.2" y="96.52" smashed="yes">
@@ -27342,9 +27338,7 @@ battery operation</text>
 <instance part="SUPPLY8" gate="G$1" x="30.48" y="177.8"/>
 <instance part="SUPPLY12" gate="G$1" x="195.58" y="175.26"/>
 <instance part="R1" gate="G$1" x="109.22" y="172.72"/>
-<instance part="C37" gate="G$1" x="101.6" y="152.4"/>
 <instance part="SUPPLY13" gate="G$1" x="116.84" y="177.8"/>
-<instance part="GND34" gate="1" x="101.6" y="144.78"/>
 <instance part="R3" gate="G$1" x="210.82" y="71.12"/>
 <instance part="R4" gate="G$1" x="175.26" y="60.96"/>
 <instance part="R5" gate="G$1" x="182.88" y="53.34" rot="R90"/>
@@ -27570,11 +27564,6 @@ battery operation</text>
 <junction x="226.06" y="124.46"/>
 </segment>
 <segment>
-<pinref part="GND34" gate="1" pin="GND"/>
-<pinref part="C37" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="147.32" x2="101.6" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R6" gate="G$1" pin="1"/>
 <pinref part="GND41" gate="1" pin="GND"/>
 <wire x1="218.44" y1="58.42" x2="218.44" y2="55.88" width="0.1524" layer="91"/>
@@ -27771,11 +27760,7 @@ battery operation</text>
 <pinref part="S2" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="160.02" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 <label x="99.06" y="160.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="C37" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="160.02" x2="101.6" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="157.48" x2="101.6" y2="160.02" width="0.1524" layer="91"/>
-<junction x="101.6" y="160.02"/>
+<wire x1="104.14" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="104.14" y1="172.72" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 <junction x="104.14" y="160.02"/>
@@ -28025,7 +28010,7 @@ Target PSoC5LP</text>
 Close to connect debugger
 to target via I2C</text>
 <text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="237.744" y="6.35" size="3.81" layer="91">11</text>
+<text x="237.744" y="6.35" size="3.81" layer="91">12</text>
 </plain>
 <instances>
 <instance part="U7" gate="G1" x="5.08" y="147.32"/>
@@ -28075,12 +28060,10 @@ to target via I2C</text>
 </instance>
 <instance part="GND12" gate="1" x="233.68" y="99.06"/>
 <instance part="GND28" gate="1" x="43.18" y="142.24"/>
-<instance part="C38" gate="G$1" x="218.44" y="96.52"/>
 <instance part="R2" gate="G$1" x="223.52" y="114.3"/>
 <instance part="SUPPLY14" gate="G$1" x="231.14" y="116.84"/>
 <instance part="SUPPLY15" gate="G$1" x="170.18" y="175.26"/>
 <instance part="SUPPLY16" gate="G$1" x="53.34" y="27.94"/>
-<instance part="GND40" gate="1" x="218.44" y="88.9"/>
 <instance part="U4" gate="G1" x="38.1" y="45.72" smashed="yes" rot="MR180">
 <attribute name="NAME" x="38.862" y="42.926" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="38.862" y="40.894" size="1.778" layer="96" rot="MR180"/>
@@ -28254,11 +28237,6 @@ to target via I2C</text>
 <junction x="43.18" y="154.94"/>
 <pinref part="GND28" gate="1" pin="GND"/>
 </segment>
-<segment>
-<pinref part="GND40" gate="1" pin="GND"/>
-<pinref part="C38" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="91.44" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$14" class="0">
 <segment>
@@ -28384,17 +28362,13 @@ to target via I2C</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="104.14" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
 <label x="213.36" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="104.14" x2="213.36" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="114.3" x2="215.9" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="114.3" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <junction x="215.9" y="104.14"/>
-<pinref part="C38" gate="G$1" pin="1"/>
-<wire x1="218.44" y1="101.6" x2="218.44" y2="104.14" width="0.1524" layer="91"/>
-<junction x="218.44" y="104.14"/>
 </segment>
 </net>
 <net name="DEBUG_SWDIO_TMS" class="0">
