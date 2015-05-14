@@ -1,7 +1,7 @@
 SparkFun FreeSoc2
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+![FreeSoC2](https://cdn.sparkfun.com//assets/parts/1/0/3/8/5/13229-02.jpg)
 
 [*SparkFun FreeSoC2 (DEV-13229)*](https://www.sparkfun.com/products/13229)
 
