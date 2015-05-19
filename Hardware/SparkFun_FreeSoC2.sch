@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24898,26 +24898,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="22PF-50V-5%(0603)" prefix="C" uservalue="yes">
-<description>CAP-07876</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603-CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07876" constant="no"/>
-<attribute name="VALUE" value="22pF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="2.2UF-10V-20%(0603)" prefix="C" uservalue="yes">
 <description>CAP-07888</description>
 <gates>
@@ -25864,8 +25844,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="PTH"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="PTH"/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="22PF-50V-5%(0603)" device="" value="22pF"/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="22PF-50V-5%(0603)" device="" value="22pF"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC26H" value="32.768kHz"/>
 <part name="Y2" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="HC49US"/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -25930,6 +25908,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
 <part name="FRAME3" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device="NO_PACKAGE"/>
+<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="PTH"/>
+<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -25966,7 +25946,8 @@ layout conventions.</text>
 <wire x1="0" y1="111.76" x2="111.76" y2="111.76" width="0.3048" layer="97" style="longdash"/>
 <text x="165.1" y="134.62" size="1.27" layer="97" align="center-left">GPIO</text>
 <text x="165.1" y="165.1" size="1.27" layer="97" align="center-left">GPIO</text>
-<text x="225.806" y="54.356" size="1.27" layer="97">Y2, C12 and C14
+<text x="192.786" y="41.656" size="1.27" layer="97">Y2, C12 and C14
+Y1, C18, and C24
 are all DNP</text>
 <wire x1="147.32" y1="35.56" x2="111.76" y2="35.56" width="0.3048" layer="97" style="longdash"/>
 <text x="2.54" y="106.68" size="2.54" layer="97">Quadrant 1</text>
@@ -26028,8 +26009,6 @@ LED</text>
 <instance part="SUPPLY6" gate="G$1" x="220.98" y="147.32"/>
 <instance part="C12" gate="G$1" x="218.44" y="50.8"/>
 <instance part="C14" gate="G$1" x="208.28" y="50.8"/>
-<instance part="C18" gate="G$1" x="175.26" y="50.8"/>
-<instance part="C24" gate="G$1" x="190.5" y="50.8"/>
 <instance part="Y1" gate="G$1" x="182.88" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="187.96" y="59.944" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="187.96" y="64.77" size="1.778" layer="96" rot="R180"/>
@@ -26057,6 +26036,8 @@ LED</text>
 <instance part="LOGO2" gate="G$1" x="66.04" y="22.86"/>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="V" x="147.32" y="0"/>
+<instance part="C18" gate="G$1" x="175.26" y="50.8"/>
+<instance part="C24" gate="G$1" x="190.5" y="50.8"/>
 </instances>
 <busses>
 </busses>
@@ -26275,11 +26256,6 @@ LED</text>
 </net>
 <net name="A5" class="0">
 <segment>
-<pinref part="JP7" gate="G$1" pin="9"/>
-<wire x1="198.12" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
-<label x="195.58" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP4" gate="G$1" pin="6"/>
 <wire x1="233.68" y1="162.56" x2="231.14" y2="162.56" width="0.1524" layer="91"/>
 <label x="231.14" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -26289,13 +26265,13 @@ LED</text>
 <wire x1="152.4" y1="154.94" x2="154.94" y2="154.94" width="0.1524" layer="91"/>
 <label x="154.94" y="154.94" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="A4" class="0">
 <segment>
 <pinref part="JP7" gate="G$1" pin="10"/>
 <wire x1="198.12" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="195.58" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+</net>
+<net name="A4" class="0">
 <segment>
 <pinref part="JP4" gate="G$1" pin="5"/>
 <wire x1="233.68" y1="165.1" x2="231.14" y2="165.1" width="0.1524" layer="91"/>
@@ -26305,6 +26281,11 @@ LED</text>
 <pinref part="U1" gate="G3" pin="P6[1]"/>
 <wire x1="152.4" y1="152.4" x2="154.94" y2="152.4" width="0.1524" layer="91"/>
 <label x="154.94" y="152.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP7" gate="G$1" pin="9"/>
+<wire x1="198.12" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<label x="195.58" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -26515,14 +26496,14 @@ LED</text>
 <wire x1="165.1" y1="106.68" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="48.26" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C24" gate="G$1" pin="2"/>
 <wire x1="175.26" y1="45.72" x2="190.5" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="45.72" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="175.26" y1="43.18" x2="175.26" y2="45.72" width="0.1524" layer="91"/>
 <junction x="175.26" y="45.72"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<pinref part="C24" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>
@@ -27127,7 +27108,6 @@ LED</text>
 <label x="154.94" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="55.88" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="60.96" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="68.58" x2="193.04" y2="68.58" width="0.1524" layer="91"/>
@@ -27135,6 +27115,7 @@ LED</text>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="175.26" y="60.96"/>
+<pinref part="C18" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="P15.3" class="0">
@@ -27144,13 +27125,13 @@ LED</text>
 <label x="154.94" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="C24" gate="G$1" pin="1"/>
 <wire x1="190.5" y1="60.96" x2="190.5" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="60.96" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
 <label x="193.04" y="60.96" size="1.27" layer="95" xref="yes"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="60.96" x2="190.5" y2="60.96" width="0.1524" layer="91"/>
 <junction x="190.5" y="60.96"/>
+<pinref part="C24" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$26" class="0">
