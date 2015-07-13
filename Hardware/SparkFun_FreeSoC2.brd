@@ -356,13 +356,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="FOUR_LAYER_WARNING">
-<text x="0" y="0" size="1.27" layer="51">THIS IS A FOUR-LAYER BOARD!</text>
+<text x="0" y="0" size="1.27" layer="51" font="vector">THIS IS A FOUR-LAYER BOARD!</text>
 </package>
 <package name="FIDUCIAL-1X2">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.2">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="1.45" y="2.7"/>
 <vertex x="1.46" y="2.59"/>
 <vertex x="1.5" y="2.49"/>
@@ -476,7 +476,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.27" y="2.7"/>
 <vertex x="1.36" y="2.7"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="5.66" y="2.71"/>
 <vertex x="5.71" y="2.86"/>
 <vertex x="5.73" y="3.02"/>
@@ -486,7 +486,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.44" y="2.62"/>
 <vertex x="6.35" y="2.38"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="6.35" y="2.38"/>
 <vertex x="6.21" y="2.16"/>
 <vertex x="6.04" y="1.97"/>
@@ -588,7 +588,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5.6" y="2.57"/>
 <vertex x="5.66" y="2.71"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.7" y="3.41"/>
 <vertex x="7.88" y="3.43"/>
 <vertex x="8.05" y="3.45"/>
@@ -605,7 +605,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.89" y="2.98"/>
 <vertex x="7.85" y="2.97"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.85" y="2.97"/>
 <vertex x="7.81" y="2.96"/>
 <vertex x="7.77" y="2.94"/>
@@ -868,7 +868,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.52" y="3.38"/>
 <vertex x="7.7" y="3.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="9.84" y="4.48"/>
 <vertex x="9.93" y="4.5"/>
 <vertex x="10.03" y="4.51"/>
@@ -950,7 +950,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.83" y="3.81"/>
 <vertex x="9.83" y="4.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="11.96" y="5.26"/>
 <vertex x="12.74" y="5.69"/>
 <vertex x="12.74" y="3.6"/>
@@ -964,7 +964,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.74" y="1.79"/>
 <vertex x="11.96" y="1.79"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="15.23" y="4.09"/>
 <vertex x="15.13" y="4.09"/>
 <vertex x="15.04" y="4.09"/>
@@ -1094,7 +1094,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.23" y="3.52"/>
 <vertex x="15.23" y="3.81"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.41" y="1.79"/>
 <vertex x="19.32" y="1.79"/>
 <vertex x="19.23" y="1.79"/>
@@ -1192,7 +1192,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.42" y="2.49"/>
 <vertex x="19.42" y="2.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.84" y="4.61"/>
 <vertex x="19.93" y="4.61"/>
 <vertex x="20.03" y="4.61"/>
@@ -1291,7 +1291,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.83" y="3.91"/>
 <vertex x="19.83" y="4.26"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="16.33" y="9.47"/>
 <vertex x="16.33" y="9.45"/>
 <vertex x="16.34" y="9.42"/>
@@ -1462,7 +1462,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package name="DUMMY">
 <description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
 </package>
-<package name="CREATIVE_COMMONS">
+<package name="CREATIVE_COMMONS@1">
 <text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
 <text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
 <text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
@@ -3058,19 +3058,19 @@ design rules under a new name.</description>
 </element>
 <element name="SJ6" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="43.18" y="43.815" rot="R180"/>
 <element name="SJ7" library="SparkFun-Passives" package="PAD-JUMPER-2-NO_NO_SILK" value="JUMPER-PAD-2-NO" x="43.18" y="41.91" rot="R180"/>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="" x="-15.24" y="-15.24">
+<element name="FRAME1" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-15.24" y="-15.24">
 <attribute name="VERSION" value="v01" x="-15.24" y="-15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="DESIGNER" value="Nobody" x="-15.24" y="-15.24" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="FRAME2" library="SparkFun-Aesthetics" package="DUMMY" value="" x="-15.24" y="-16.51">
+<element name="FRAME2" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-15.24" y="-16.51">
 <attribute name="VERSION" value="v01" x="-15.24" y="-16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="DESIGNER" value="Nobody" x="-15.24" y="-16.51" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="FRAME3" library="SparkFun-Aesthetics" package="DUMMY" value="" x="-15.24" y="-17.78">
+<element name="FRAME3" library="SparkFun-Aesthetics" package="DUMMY" value="FRAME-LETTERNO_PACKAGE" x="-15.24" y="-17.78">
 <attribute name="VERSION" value="v01" x="-15.24" y="-17.78" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="DESIGNER" value="Nobody" x="-15.24" y="-17.78" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="U$2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="" x="35.56" y="-27.94"/>
+<element name="U$2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS@1" value="" x="35.56" y="-27.94"/>
 <element name="C18" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="" x="80.645" y="22.86" rot="R90"/>
 <element name="C24" library="SparkFun-Capacitors" package="CAP-PTH-SMALL" value="" x="75.565" y="22.86" rot="R90"/>
 <element name="C37" library="SparkFun-Capacitors" package="0603-CAP" value="1.0uF" x="21.971" y="21.717">

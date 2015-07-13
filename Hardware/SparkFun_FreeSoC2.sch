@@ -161,7 +161,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
 <package name="FOUR_LAYER_WARNING">
-<text x="0" y="0" size="1.27" layer="51">THIS IS A FOUR-LAYER BOARD!</text>
+<text x="0" y="0" size="1.27" layer="51" font="vector">THIS IS A FOUR-LAYER BOARD!</text>
 </package>
 <package name="FIDUCIAL-1X2">
 <smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
@@ -170,7 +170,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.2">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="1.45" y="2.7"/>
 <vertex x="1.46" y="2.59"/>
 <vertex x="1.5" y="2.49"/>
@@ -284,7 +284,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.27" y="2.7"/>
 <vertex x="1.36" y="2.7"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="5.66" y="2.71"/>
 <vertex x="5.71" y="2.86"/>
 <vertex x="5.73" y="3.02"/>
@@ -294,7 +294,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.44" y="2.62"/>
 <vertex x="6.35" y="2.38"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="6.35" y="2.38"/>
 <vertex x="6.21" y="2.16"/>
 <vertex x="6.04" y="1.97"/>
@@ -396,7 +396,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5.6" y="2.57"/>
 <vertex x="5.66" y="2.71"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.7" y="3.41"/>
 <vertex x="7.88" y="3.43"/>
 <vertex x="8.05" y="3.45"/>
@@ -413,7 +413,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.89" y="2.98"/>
 <vertex x="7.85" y="2.97"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="7.85" y="2.97"/>
 <vertex x="7.81" y="2.96"/>
 <vertex x="7.77" y="2.94"/>
@@ -676,7 +676,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.52" y="3.38"/>
 <vertex x="7.7" y="3.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="9.84" y="4.48"/>
 <vertex x="9.93" y="4.5"/>
 <vertex x="10.03" y="4.51"/>
@@ -758,7 +758,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.83" y="3.81"/>
 <vertex x="9.83" y="4.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="11.96" y="5.26"/>
 <vertex x="12.74" y="5.69"/>
 <vertex x="12.74" y="3.6"/>
@@ -772,7 +772,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.74" y="1.79"/>
 <vertex x="11.96" y="1.79"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="15.23" y="4.09"/>
 <vertex x="15.13" y="4.09"/>
 <vertex x="15.04" y="4.09"/>
@@ -902,7 +902,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.23" y="3.52"/>
 <vertex x="15.23" y="3.81"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.41" y="1.79"/>
 <vertex x="19.32" y="1.79"/>
 <vertex x="19.23" y="1.79"/>
@@ -1000,7 +1000,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.42" y="2.49"/>
 <vertex x="19.42" y="2.14"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="19.84" y="4.61"/>
 <vertex x="19.93" y="4.61"/>
 <vertex x="20.03" y="4.61"/>
@@ -1099,7 +1099,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="19.83" y="3.91"/>
 <vertex x="19.83" y="4.26"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.0762" layer="21">
 <vertex x="16.33" y="9.47"/>
 <vertex x="16.33" y="9.45"/>
 <vertex x="16.34" y="9.42"/>
@@ -1267,43 +1267,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
 </package>
-<package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="21">
-<vertex x="0.6578" y="-1.588" curve="9.499253"/>
-<vertex x="0.9108" y="-1.4576"/>
-<vertex x="1.5392" y="-1.97"/>
-<vertex x="1.97" y="-1.5392"/>
-<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
-<vertex x="1.6747" y="-0.3866"/>
-<vertex x="2.4814" y="-0.3047"/>
-<vertex x="2.4814" y="0.3047"/>
-<vertex x="1.6747" y="0.3866" curve="19.001165"/>
-<vertex x="1.4576" y="0.9108"/>
-<vertex x="1.97" y="1.5392"/>
-<vertex x="1.5392" y="1.97"/>
-<vertex x="0.9108" y="1.4576" curve="19.001165"/>
-<vertex x="0.3866" y="1.6747"/>
-<vertex x="0.3047" y="2.4814"/>
-<vertex x="-0.3047" y="2.4814"/>
-<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
-<vertex x="-0.9108" y="1.4576"/>
-<vertex x="-1.5392" y="1.97"/>
-<vertex x="-1.97" y="1.5392"/>
-<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
-<vertex x="-1.6747" y="0.3866"/>
-<vertex x="-2.4814" y="0.3047"/>
-<vertex x="-2.4814" y="-0.3047"/>
-<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
-<vertex x="-1.4576" y="-0.9108"/>
-<vertex x="-1.97" y="-1.5392"/>
-<vertex x="-1.5392" y="-1.97"/>
-<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
-<vertex x="-0.6578" y="-1.588"/>
-<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
-<vertex x="-0.7813" y="0" curve="-247.497552"/>
-<vertex x="0.299" y="-0.7218"/>
-</polygon>
-</package>
 <package name="OSHW-LOGO-L">
 <polygon width="0.15" layer="21">
 <vertex x="0.9209" y="-2.2231" curve="9.497479"/>
@@ -1341,8 +1304,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.4186" y="-1.0105"/>
 </polygon>
 </package>
+<package name="DUMMY">
+<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+</package>
 <package name="SFE_LOGO_NAME_FLAME_.1">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="0.81" y="1.4"/>
 <vertex x="0.81" y="1.34"/>
 <vertex x="0.83" y="1.29"/>
@@ -1456,7 +1422,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="0.71" y="1.4"/>
 <vertex x="0.76" y="1.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.91" y="1.4"/>
 <vertex x="2.94" y="1.48"/>
 <vertex x="2.95" y="1.56"/>
@@ -1466,7 +1432,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.3" y="1.36"/>
 <vertex x="3.25" y="1.24"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.25" y="1.24"/>
 <vertex x="3.19" y="1.13"/>
 <vertex x="3.1" y="1.04"/>
@@ -1569,7 +1535,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.88" y="1.33"/>
 <vertex x="2.91" y="1.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.93" y="1.75"/>
 <vertex x="4.02" y="1.76"/>
 <vertex x="4.11" y="1.77"/>
@@ -1586,7 +1552,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.03" y="1.54"/>
 <vertex x="4.01" y="1.54"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="4.01" y="1.54"/>
 <vertex x="3.98" y="1.53"/>
 <vertex x="3.96" y="1.52"/>
@@ -1845,7 +1811,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.84" y="1.74"/>
 <vertex x="3.93" y="1.75"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5" y="2.29"/>
 <vertex x="5.05" y="2.3"/>
 <vertex x="5.09" y="2.31"/>
@@ -1927,7 +1893,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5" y="1.95"/>
 <vertex x="5" y="2.12"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="6.06" y="2.68"/>
 <vertex x="6.45" y="2.89"/>
 <vertex x="6.45" y="1.85"/>
@@ -1941,7 +1907,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="6.45" y="0.94"/>
 <vertex x="6.06" y="0.94"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="7.7" y="2.1"/>
 <vertex x="7.65" y="2.1"/>
 <vertex x="7.6" y="2.1"/>
@@ -2071,7 +2037,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.7" y="1.81"/>
 <vertex x="7.7" y="1.95"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.79" y="0.94"/>
 <vertex x="9.74" y="0.94"/>
 <vertex x="9.7" y="0.94"/>
@@ -2170,7 +2136,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.79" y="1.29"/>
 <vertex x="9.79" y="1.12"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="10" y="2.36"/>
 <vertex x="10.05" y="2.36"/>
 <vertex x="10.1" y="2.36"/>
@@ -2269,7 +2235,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10" y="2"/>
 <vertex x="10" y="2.18"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="8.25" y="4.78"/>
 <vertex x="8.25" y="4.76"/>
 <vertex x="8.25" y="4.73"/>
@@ -2398,7 +2364,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.3">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="1.69" y="4.06"/>
 <vertex x="1.71" y="3.88"/>
 <vertex x="1.77" y="3.74"/>
@@ -2512,7 +2478,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.42" y="4.06"/>
 <vertex x="1.56" y="4.06"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="8.01" y="4.06"/>
 <vertex x="8.08" y="4.29"/>
 <vertex x="8.12" y="4.53"/>
@@ -2522,7 +2488,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="9.18" y="3.94"/>
 <vertex x="9.04" y="3.56"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="9.04" y="3.56"/>
 <vertex x="8.83" y="3.24"/>
 <vertex x="8.57" y="2.96"/>
@@ -2625,7 +2591,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.91" y="3.86"/>
 <vertex x="8.01" y="4.06"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="11.07" y="5.11"/>
 <vertex x="11.33" y="5.15"/>
 <vertex x="11.59" y="5.18"/>
@@ -2642,7 +2608,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="11.35" y="4.48"/>
 <vertex x="11.29" y="4.46"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="11.29" y="4.46"/>
 <vertex x="11.23" y="4.44"/>
 <vertex x="11.17" y="4.42"/>
@@ -2905,7 +2871,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10.8" y="5.07"/>
 <vertex x="11.07" y="5.11"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.28" y="6.72"/>
 <vertex x="14.42" y="6.75"/>
 <vertex x="14.56" y="6.77"/>
@@ -2987,7 +2953,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="14.27" y="5.71"/>
 <vertex x="14.27" y="6.22"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.46" y="7.9"/>
 <vertex x="18.63" y="8.54"/>
 <vertex x="18.63" y="5.39"/>
@@ -3001,7 +2967,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.63" y="2.68"/>
 <vertex x="17.46" y="2.68"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.36" y="6.14"/>
 <vertex x="22.22" y="6.14"/>
 <vertex x="22.08" y="6.14"/>
@@ -3131,7 +3097,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="22.36" y="5.28"/>
 <vertex x="22.36" y="5.71"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.64" y="2.68"/>
 <vertex x="28.5" y="2.68"/>
 <vertex x="28.36" y="2.68"/>
@@ -3230,7 +3196,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="28.65" y="3.74"/>
 <vertex x="28.65" y="3.21"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="29.28" y="6.92"/>
 <vertex x="29.42" y="6.92"/>
 <vertex x="29.56" y="6.92"/>
@@ -3329,7 +3295,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="29.27" y="5.86"/>
 <vertex x="29.27" y="6.39"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="24.01" y="14.2"/>
 <vertex x="24.02" y="14.18"/>
 <vertex x="24.03" y="14.13"/>
@@ -3462,7 +3428,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.4">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.21" y="5.41"/>
 <vertex x="2.24" y="5.18"/>
 <vertex x="2.31" y="4.98"/>
@@ -3576,7 +3542,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.84" y="5.41"/>
 <vertex x="2.03" y="5.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="10.64" y="5.41"/>
 <vertex x="10.73" y="5.72"/>
 <vertex x="10.78" y="6.04"/>
@@ -3586,7 +3552,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="12.2" y="5.25"/>
 <vertex x="12" y="4.75"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="12" y="4.75"/>
 <vertex x="11.73" y="4.31"/>
 <vertex x="11.38" y="3.95"/>
@@ -3690,7 +3656,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="10.51" y="5.14"/>
 <vertex x="10.64" y="5.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.71" y="6.82"/>
 <vertex x="15.07" y="6.86"/>
 <vertex x="15.41" y="6.9"/>
@@ -3707,7 +3673,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.09" y="5.97"/>
 <vertex x="15.01" y="5.95"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="15.01" y="5.95"/>
 <vertex x="14.92" y="5.92"/>
 <vertex x="14.84" y="5.89"/>
@@ -3970,7 +3936,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="14.36" y="6.76"/>
 <vertex x="14.71" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.99" y="8.97"/>
 <vertex x="19.18" y="9"/>
 <vertex x="19.36" y="9.03"/>
@@ -4053,7 +4019,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.98" y="7.62"/>
 <vertex x="18.98" y="8.29"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="23.24" y="10.53"/>
 <vertex x="24.79" y="11.38"/>
 <vertex x="24.79" y="7.19"/>
@@ -4067,7 +4033,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="24.79" y="3.57"/>
 <vertex x="23.24" y="3.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="29.77" y="8.19"/>
 <vertex x="29.58" y="8.19"/>
 <vertex x="29.39" y="8.19"/>
@@ -4197,7 +4163,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="29.77" y="7.04"/>
 <vertex x="29.77" y="7.61"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="38.14" y="3.57"/>
 <vertex x="37.95" y="3.57"/>
 <vertex x="37.77" y="3.57"/>
@@ -4297,7 +4263,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.15" y="4.99"/>
 <vertex x="38.15" y="4.28"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="39" y="9.23"/>
 <vertex x="39.18" y="9.23"/>
 <vertex x="39.36" y="9.23"/>
@@ -4397,7 +4363,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.98" y="7.82"/>
 <vertex x="38.98" y="8.52"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="31.97" y="18.94"/>
 <vertex x="31.98" y="18.91"/>
 <vertex x="31.99" y="18.84"/>
@@ -4529,7 +4495,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.5">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="2.68" y="6.81"/>
 <vertex x="2.71" y="6.52"/>
 <vertex x="2.81" y="6.28"/>
@@ -4643,7 +4609,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.22" y="6.82"/>
 <vertex x="2.45" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="13.22" y="6.82"/>
 <vertex x="13.33" y="7.2"/>
 <vertex x="13.39" y="7.61"/>
@@ -4653,7 +4619,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.16" y="6.61"/>
 <vertex x="14.92" y="5.99"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="14.92" y="5.99"/>
 <vertex x="14.58" y="5.44"/>
 <vertex x="14.15" y="4.98"/>
@@ -4758,7 +4724,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="13.05" y="6.48"/>
 <vertex x="13.22" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.31" y="8.57"/>
 <vertex x="18.75" y="8.63"/>
 <vertex x="19.17" y="8.68"/>
@@ -4775,7 +4741,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.78" y="7.52"/>
 <vertex x="18.67" y="7.49"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.67" y="7.49"/>
 <vertex x="18.57" y="7.45"/>
 <vertex x="18.47" y="7.42"/>
@@ -5038,7 +5004,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="17.87" y="8.5"/>
 <vertex x="18.31" y="8.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="23.66" y="11.26"/>
 <vertex x="23.89" y="11.3"/>
 <vertex x="24.12" y="11.34"/>
@@ -5122,7 +5088,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="23.64" y="9.57"/>
 <vertex x="23.64" y="10.41"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.96" y="13.22"/>
 <vertex x="30.9" y="14.28"/>
 <vertex x="30.9" y="9.04"/>
@@ -5136,7 +5102,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="30.9" y="4.52"/>
 <vertex x="28.96" y="4.52"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="37.13" y="10.29"/>
 <vertex x="36.89" y="10.29"/>
 <vertex x="36.65" y="10.29"/>
@@ -5266,7 +5232,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="37.13" y="8.84"/>
 <vertex x="37.13" y="9.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.59" y="4.52"/>
 <vertex x="47.36" y="4.52"/>
 <vertex x="47.13" y="4.52"/>
@@ -5366,7 +5332,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="47.61" y="6.28"/>
 <vertex x="47.61" y="5.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="48.66" y="11.59"/>
 <vertex x="48.89" y="11.59"/>
 <vertex x="49.12" y="11.59"/>
@@ -5467,7 +5433,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="48.64" y="9.82"/>
 <vertex x="48.64" y="10.7"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="39.88" y="23.72"/>
 <vertex x="39.89" y="23.69"/>
 <vertex x="39.9" y="23.6"/>
@@ -5601,7 +5567,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.6">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.1" y="8.42"/>
 <vertex x="3.14" y="8.07"/>
 <vertex x="3.25" y="7.77"/>
@@ -5715,7 +5681,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="2.55" y="8.42"/>
 <vertex x="2.82" y="8.42"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="15.74" y="8.42"/>
 <vertex x="15.88" y="8.88"/>
 <vertex x="15.95" y="9.37"/>
@@ -5725,7 +5691,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.08" y="8.17"/>
 <vertex x="17.79" y="7.43"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="17.79" y="7.43"/>
 <vertex x="17.38" y="6.77"/>
 <vertex x="16.86" y="6.22"/>
@@ -5830,7 +5796,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="15.54" y="8.02"/>
 <vertex x="15.74" y="8.42"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="21.85" y="10.53"/>
 <vertex x="22.38" y="10.59"/>
 <vertex x="22.89" y="10.65"/>
@@ -5847,7 +5813,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="22.42" y="9.26"/>
 <vertex x="22.29" y="9.22"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="22.29" y="9.22"/>
 <vertex x="22.16" y="9.18"/>
 <vertex x="22.05" y="9.14"/>
@@ -6110,7 +6076,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="21.32" y="10.44"/>
 <vertex x="21.85" y="10.53"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="28.27" y="13.75"/>
 <vertex x="28.55" y="13.8"/>
 <vertex x="28.83" y="13.85"/>
@@ -6193,7 +6159,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="28.25" y="11.72"/>
 <vertex x="28.25" y="12.73"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="34.64" y="16.1"/>
 <vertex x="36.97" y="17.38"/>
 <vertex x="36.97" y="11.09"/>
@@ -6207,7 +6173,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="36.97" y="5.66"/>
 <vertex x="34.64" y="5.66"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="44.44" y="12.59"/>
 <vertex x="44.15" y="12.59"/>
 <vertex x="43.86" y="12.59"/>
@@ -6337,7 +6303,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="44.44" y="10.85"/>
 <vertex x="44.44" y="11.72"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="56.99" y="5.66"/>
 <vertex x="56.71" y="5.66"/>
 <vertex x="56.43" y="5.66"/>
@@ -6438,7 +6404,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="57.01" y="7.78"/>
 <vertex x="57.01" y="6.72"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="58.27" y="14.14"/>
 <vertex x="58.55" y="14.14"/>
 <vertex x="58.83" y="14.14"/>
@@ -6539,7 +6505,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="58.25" y="12.03"/>
 <vertex x="58.25" y="13.09"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.74" y="28.7"/>
 <vertex x="47.75" y="28.66"/>
 <vertex x="47.76" y="28.56"/>
@@ -6675,7 +6641,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.7">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="3.67" y="9.52"/>
 <vertex x="3.71" y="9.11"/>
 <vertex x="3.85" y="8.77"/>
@@ -6789,7 +6755,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.02" y="9.52"/>
 <vertex x="3.34" y="9.52"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="18.42" y="9.53"/>
 <vertex x="18.57" y="10.06"/>
 <vertex x="18.66" y="10.63"/>
@@ -6799,7 +6765,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="21.14" y="9.24"/>
 <vertex x="20.8" y="8.37"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="20.8" y="8.37"/>
 <vertex x="20.33" y="7.6"/>
 <vertex x="19.72" y="6.96"/>
@@ -6909,7 +6875,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="18.18" y="9.05"/>
 <vertex x="18.42" y="9.53"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="25.54" y="11.98"/>
 <vertex x="26.16" y="12.06"/>
 <vertex x="26.76" y="12.13"/>
@@ -6926,7 +6892,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="26.21" y="10.5"/>
 <vertex x="26.06" y="10.46"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="26.06" y="10.46"/>
 <vertex x="25.91" y="10.42"/>
 <vertex x="25.77" y="10.36"/>
@@ -7189,7 +7155,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="24.93" y="11.88"/>
 <vertex x="25.54" y="11.98"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="33.03" y="15.74"/>
 <vertex x="33.36" y="15.8"/>
 <vertex x="33.68" y="15.86"/>
@@ -7273,7 +7239,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="33.01" y="13.38"/>
 <vertex x="33.01" y="14.56"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="40.46" y="18.48"/>
 <vertex x="43.18" y="19.97"/>
 <vertex x="43.18" y="12.64"/>
@@ -7287,7 +7253,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="43.18" y="6.31"/>
 <vertex x="40.46" y="6.31"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="51.89" y="14.38"/>
 <vertex x="51.56" y="14.38"/>
 <vertex x="51.22" y="14.38"/>
@@ -7417,7 +7383,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="51.89" y="12.36"/>
 <vertex x="51.89" y="13.37"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="66.54" y="6.3"/>
 <vertex x="66.21" y="6.3"/>
 <vertex x="65.89" y="6.3"/>
@@ -7518,7 +7484,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="66.57" y="8.78"/>
 <vertex x="66.57" y="7.54"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="68.04" y="16.2"/>
 <vertex x="68.36" y="16.2"/>
 <vertex x="68.68" y="16.2"/>
@@ -7619,7 +7585,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="68.01" y="13.73"/>
 <vertex x="68.01" y="14.97"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="55.75" y="33.19"/>
 <vertex x="55.75" y="33.14"/>
 <vertex x="55.78" y="33.02"/>
@@ -7757,7 +7723,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.8">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5.12" y="10.49"/>
 <vertex x="5.17" y="10.03"/>
 <vertex x="5.32" y="9.63"/>
@@ -7873,7 +7839,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="4.38" y="10.49"/>
 <vertex x="4.75" y="10.49"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="21.97" y="10.5"/>
 <vertex x="22.15" y="11.11"/>
 <vertex x="22.25" y="11.76"/>
@@ -7886,7 +7852,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="25.04" y="10.04"/>
 <vertex x="24.7" y="9.18"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="24.7" y="9.18"/>
 <vertex x="24.64" y="9.06"/>
 <vertex x="24.16" y="8.3"/>
@@ -8004,7 +7970,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="21.7" y="9.96"/>
 <vertex x="21.97" y="10.5"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="30.12" y="13.31"/>
 <vertex x="30.82" y="13.4"/>
 <vertex x="31.5" y="13.48"/>
@@ -8021,7 +7987,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="30.87" y="11.61"/>
 <vertex x="30.7" y="11.57"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="30.7" y="11.57"/>
 <vertex x="30.54" y="11.52"/>
 <vertex x="30.38" y="11.46"/>
@@ -8284,7 +8250,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="29.41" y="13.19"/>
 <vertex x="30.12" y="13.31"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="38.68" y="17.6"/>
 <vertex x="39.05" y="17.67"/>
 <vertex x="39.42" y="17.73"/>
@@ -8368,7 +8334,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.65" y="14.9"/>
 <vertex x="38.65" y="16.25"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.16" y="20.74"/>
 <vertex x="50.27" y="22.44"/>
 <vertex x="50.27" y="14.06"/>
@@ -8382,7 +8348,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="50.27" y="6.82"/>
 <vertex x="47.16" y="6.82"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="60.23" y="16.05"/>
 <vertex x="59.85" y="16.05"/>
 <vertex x="59.47" y="16.05"/>
@@ -8512,7 +8478,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="60.23" y="13.74"/>
 <vertex x="60.23" y="14.9"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="76.97" y="6.82"/>
 <vertex x="76.6" y="6.82"/>
 <vertex x="76.23" y="6.82"/>
@@ -8615,7 +8581,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="77" y="9.64"/>
 <vertex x="77" y="8.23"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="78.68" y="18.13"/>
 <vertex x="79.05" y="18.13"/>
 <vertex x="79.42" y="18.13"/>
@@ -8719,7 +8685,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="78.65" y="15.3"/>
 <vertex x="78.65" y="16.72"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="64.64" y="37.54"/>
 <vertex x="64.64" y="37.49"/>
 <vertex x="64.67" y="37.35"/>
@@ -8860,7 +8826,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_.9">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="4.28" y="12.92"/>
 <vertex x="4.34" y="12.4"/>
 <vertex x="4.51" y="11.96"/>
@@ -8990,7 +8956,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="3.45" y="12.92"/>
 <vertex x="3.86" y="12.92"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="23.24" y="12.93"/>
 <vertex x="23.44" y="13.61"/>
 <vertex x="23.56" y="14.35"/>
@@ -9003,7 +8969,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="26.7" y="12.41"/>
 <vertex x="26.31" y="11.44"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="26.31" y="11.44"/>
 <vertex x="26.24" y="11.31"/>
 <vertex x="25.7" y="10.46"/>
@@ -9122,7 +9088,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="22.94" y="12.32"/>
 <vertex x="23.24" y="12.93"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="32.41" y="16.09"/>
 <vertex x="33.2" y="16.19"/>
 <vertex x="33.96" y="16.28"/>
@@ -9139,7 +9105,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="33.26" y="14.18"/>
 <vertex x="33.06" y="14.13"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="33.06" y="14.13"/>
 <vertex x="32.88" y="14.07"/>
 <vertex x="32.7" y="14"/>
@@ -9402,7 +9368,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="31.61" y="15.95"/>
 <vertex x="32.41" y="16.09"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="42.04" y="20.92"/>
 <vertex x="42.45" y="20.99"/>
 <vertex x="42.87" y="21.07"/>
@@ -9486,7 +9452,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="42.01" y="17.88"/>
 <vertex x="42.01" y="19.4"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="51.58" y="24.44"/>
 <vertex x="55.08" y="26.36"/>
 <vertex x="55.08" y="16.93"/>
@@ -9500,7 +9466,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="55.08" y="8.79"/>
 <vertex x="51.58" y="8.79"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="66.28" y="19.17"/>
 <vertex x="65.85" y="19.17"/>
 <vertex x="65.42" y="19.17"/>
@@ -9631,7 +9597,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="66.28" y="16.58"/>
 <vertex x="66.28" y="17.88"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="85.11" y="8.79"/>
 <vertex x="84.7" y="8.79"/>
 <vertex x="84.28" y="8.79"/>
@@ -9737,7 +9703,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="85.15" y="11.97"/>
 <vertex x="85.15" y="10.38"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="87.04" y="21.51"/>
 <vertex x="87.46" y="21.51"/>
 <vertex x="87.87" y="21.51"/>
@@ -9843,7 +9809,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="87" y="18.33"/>
 <vertex x="87" y="19.93"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="71.24" y="43.35"/>
 <vertex x="71.25" y="43.29"/>
 <vertex x="71.27" y="43.14"/>
@@ -9991,7 +9957,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 </package>
 <package name="SFE_LOGO_NAME_FLAME_1">
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="5.98" y="13.09"/>
 <vertex x="6.05" y="12.51"/>
 <vertex x="6.24" y="12.02"/>
@@ -10136,7 +10102,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="5.06" y="13.09"/>
 <vertex x="5.52" y="13.09"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="27.05" y="13.1"/>
 <vertex x="27.28" y="13.86"/>
 <vertex x="27.41" y="14.67"/>
@@ -10149,7 +10115,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="30.89" y="12.52"/>
 <vertex x="30.46" y="11.45"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="30.46" y="11.45"/>
 <vertex x="30.39" y="11.3"/>
 <vertex x="29.78" y="10.35"/>
@@ -10268,7 +10234,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="26.72" y="12.42"/>
 <vertex x="27.05" y="13.1"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="37.24" y="16.61"/>
 <vertex x="38.12" y="16.72"/>
 <vertex x="38.97" y="16.82"/>
@@ -10285,7 +10251,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="38.18" y="14.49"/>
 <vertex x="37.97" y="14.44"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="37.97" y="14.44"/>
 <vertex x="37.76" y="14.37"/>
 <vertex x="37.56" y="14.29"/>
@@ -10549,7 +10515,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="36.35" y="16.46"/>
 <vertex x="37.24" y="16.61"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="47.94" y="21.98"/>
 <vertex x="48.4" y="22.06"/>
 <vertex x="48.86" y="22.14"/>
@@ -10633,7 +10599,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="47.9" y="18.6"/>
 <vertex x="47.9" y="20.29"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="58.54" y="25.89"/>
 <vertex x="62.43" y="28.02"/>
 <vertex x="62.43" y="17.55"/>
@@ -10647,7 +10613,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="62.43" y="8.5"/>
 <vertex x="58.54" y="8.5"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="74.88" y="20.04"/>
 <vertex x="74.4" y="20.04"/>
 <vertex x="73.92" y="20.04"/>
@@ -10778,7 +10744,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="74.88" y="17.15"/>
 <vertex x="74.88" y="18.59"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="95.8" y="8.5"/>
 <vertex x="95.34" y="8.5"/>
 <vertex x="94.87" y="8.5"/>
@@ -10886,7 +10852,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="95.84" y="12.03"/>
 <vertex x="95.84" y="10.26"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="97.94" y="22.64"/>
 <vertex x="98.4" y="22.64"/>
 <vertex x="98.86" y="22.64"/>
@@ -10995,7 +10961,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="97.9" y="19.11"/>
 <vertex x="97.9" y="20.87"/>
 </polygon>
-<polygon width="0.00508125" layer="21">
+<polygon width="0.01" layer="21">
 <vertex x="80.39" y="46.9"/>
 <vertex x="80.39" y="46.84"/>
 <vertex x="80.42" y="46.66"/>
@@ -11150,13 +11116,158 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="80.38" y="46.92"/>
 </polygon>
 </package>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="51">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="51"> https://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="11.43" y="0" size="1.778" layer="51">Designed by:</text>
+<package name="OSHW-LOGO-S_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
 </package>
-<package name="DUMMY">
-<description>NOTHING HERE!!! For when you want a symbol with no package as an option against symbols with a package.</description>
+<package name="OSHW-LOGO-M_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-L_COPPER">
+<polygon width="0.15" layer="1">
+<vertex x="0.9209" y="-2.2231" curve="9.497479"/>
+<vertex x="1.2751" y="-2.0407"/>
+<vertex x="2.1548" y="-2.758"/>
+<vertex x="2.758" y="-2.1548"/>
+<vertex x="2.0407" y="-1.2751" curve="18.998791"/>
+<vertex x="2.3446" y="-0.5413"/>
+<vertex x="3.4739" y="-0.4265"/>
+<vertex x="3.4739" y="0.4265"/>
+<vertex x="2.3446" y="0.5413" curve="18.998791"/>
+<vertex x="2.0407" y="1.2751"/>
+<vertex x="2.758" y="2.1548"/>
+<vertex x="2.1548" y="2.758"/>
+<vertex x="1.2751" y="2.0407" curve="18.998791"/>
+<vertex x="0.5413" y="2.3446"/>
+<vertex x="0.4265" y="3.4739"/>
+<vertex x="-0.4265" y="3.4739"/>
+<vertex x="-0.5413" y="2.3446" curve="18.998791"/>
+<vertex x="-1.2751" y="2.0407"/>
+<vertex x="-2.1548" y="2.758"/>
+<vertex x="-2.758" y="2.1548"/>
+<vertex x="-2.0407" y="1.2751" curve="18.998791"/>
+<vertex x="-2.3446" y="0.5413"/>
+<vertex x="-3.4739" y="0.4265"/>
+<vertex x="-3.4739" y="-0.4265"/>
+<vertex x="-2.3446" y="-0.5413" curve="18.998791"/>
+<vertex x="-2.0407" y="-1.2751"/>
+<vertex x="-2.758" y="-2.1548"/>
+<vertex x="-2.1548" y="-2.758"/>
+<vertex x="-1.2751" y="-2.0407" curve="9.497479"/>
+<vertex x="-0.9209" y="-2.2231"/>
+<vertex x="-0.4186" y="-1.0105" curve="-67.504205"/>
+<vertex x="-1.0938" y="0" curve="-247.497204"/>
+<vertex x="0.4186" y="-1.0105"/>
+</polygon>
+</package>
+<package name="OSHW-LOGO-M">
+<polygon width="0.0762" layer="21">
+<vertex x="0.6578" y="-1.588" curve="9.499253"/>
+<vertex x="0.9108" y="-1.4576"/>
+<vertex x="1.5392" y="-1.97"/>
+<vertex x="1.97" y="-1.5392"/>
+<vertex x="1.4576" y="-0.9108" curve="19.001165"/>
+<vertex x="1.6747" y="-0.3866"/>
+<vertex x="2.4814" y="-0.3047"/>
+<vertex x="2.4814" y="0.3047"/>
+<vertex x="1.6747" y="0.3866" curve="19.001165"/>
+<vertex x="1.4576" y="0.9108"/>
+<vertex x="1.97" y="1.5392"/>
+<vertex x="1.5392" y="1.97"/>
+<vertex x="0.9108" y="1.4576" curve="19.001165"/>
+<vertex x="0.3866" y="1.6747"/>
+<vertex x="0.3047" y="2.4814"/>
+<vertex x="-0.3047" y="2.4814"/>
+<vertex x="-0.3866" y="1.6747" curve="19.001165"/>
+<vertex x="-0.9108" y="1.4576"/>
+<vertex x="-1.5392" y="1.97"/>
+<vertex x="-1.97" y="1.5392"/>
+<vertex x="-1.4576" y="0.9108" curve="19.001165"/>
+<vertex x="-1.6747" y="0.3866"/>
+<vertex x="-2.4814" y="0.3047"/>
+<vertex x="-2.4814" y="-0.3047"/>
+<vertex x="-1.6747" y="-0.3866" curve="19.001165"/>
+<vertex x="-1.4576" y="-0.9108"/>
+<vertex x="-1.97" y="-1.5392"/>
+<vertex x="-1.5392" y="-1.97"/>
+<vertex x="-0.9108" y="-1.4576" curve="9.499253"/>
+<vertex x="-0.6578" y="-1.588"/>
+<vertex x="-0.299" y="-0.7218" curve="-67.507353"/>
+<vertex x="-0.7813" y="0" curve="-247.497552"/>
+<vertex x="0.299" y="-0.7218"/>
+</polygon>
+</package>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
 </package>
 </packages>
 <symbols>
@@ -15982,17 +16093,23 @@ logo. Default layer for the logo on the board is tSilk.</description>
 </devices>
 </deviceset>
 <deviceset name="OSHW-LOGO" prefix="LOGO">
-<description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt; This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
+<description>&lt;b&gt;Open Source Hardware Logo&lt;/b&gt;
+ This logo indicates the piece of hardware it is found on incorporates a OSHW license and/or adheres to the definition of open source hardware found here: http://freedomdefined.org/OSHW</description>
 <gates>
 <gate name="G$1" symbol="OSHW-LOGO" x="-5.08" y="-5.08"/>
 </gates>
 <devices>
-<device name="S" package="OSHW-LOGO-S">
+<device name="S-COPPER" package="OSHW-LOGO-S_COPPER">
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
-<device name="M" package="OSHW-LOGO-M">
+<device name="M-COPPER" package="OSHW-LOGO-M_COPPER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="L-COPPER" package="OSHW-LOGO-L_COPPER">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -16002,9 +16119,19 @@ logo. Default layer for the logo on the board is tSilk.</description>
 <technology name=""/>
 </technologies>
 </device>
+<device name="M" package="OSHW-LOGO-M">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="OSHW-LOGO-S">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="FRAME-LETTER" prefix="FRAME" uservalue="yes">
+<deviceset name="FRAME-LETTER" prefix="FRAME">
 <description>&lt;b&gt;Schematic Frame&lt;/b&gt;&lt;p&gt;
 Standard 8.5x11 US Letter frame</description>
 <gates>
@@ -16014,10 +16141,7 @@ Standard 8.5x11 US Letter frame</description>
 <devices>
 <device name="" package="CREATIVE_COMMONS">
 <technologies>
-<technology name="">
-<attribute name="DESIGNER" value="NAME" constant="no"/>
-<attribute name="VERSION" value="v01" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 <device name="NO_PACKAGE" package="DUMMY">
