@@ -26108,7 +26108,7 @@ BUTTON</text>
 <text x="166.116" y="115.316" size="1.778" layer="97">USER
 LED</text>
 <text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="238.76" y="6.096" size="3.81" layer="91">12</text>
+<text x="238.76" y="6.096" size="3.81" layer="91">13</text>
 </plain>
 <instances>
 <instance part="U1" gate="G1" x="7.62" y="129.54"/>
