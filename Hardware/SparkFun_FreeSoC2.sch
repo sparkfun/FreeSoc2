@@ -27362,7 +27362,7 @@ diode for low-V
 battery operation</text>
 <text x="35.56" y="17.78" size="1.778" layer="97">JP3 is DNP</text>
 <text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="238.252" y="6.096" size="3.81" layer="91">12</text>
+<text x="238.252" y="6.096" size="3.81" layer="91">13</text>
 <text x="121.92" y="33.528" size="0.6096" layer="97">C37 &amp; C38 to be 
 near U2 &amp;U 3 input</text>
 </plain>
@@ -28132,7 +28132,7 @@ Target PSoC5LP</text>
 Close to connect debugger
 to target via I2C</text>
 <text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="237.744" y="6.35" size="3.81" layer="91">12</text>
+<text x="237.744" y="6.35" size="3.81" layer="91">13</text>
 </plain>
 <instances>
 <instance part="U7" gate="G1" x="5.08" y="147.32"/>
