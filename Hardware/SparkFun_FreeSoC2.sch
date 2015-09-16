@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -25844,8 +25844,8 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="U2" library="SparkFun-PowerIC" deviceset="V_REG_MIC5219" device="5V" value="MIC5219 5V"/>
 <part name="U3" library="SparkFun-PowerIC" deviceset="V_REG_MIC5219" device="3.3V" value="MIC5219 3.3V"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="470PF-50V-5%(0603)" device="SMD" value="470pF"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="470PF-50V-5%(0603)" device="SMD" value="470pF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="470PF-50V-5%(0603)" device="SMD" value="DNP"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="470PF-50V-5%(0603)" device="SMD" value="DNP"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
