@@ -11,15 +11,15 @@
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -34,10 +34,10 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -91,7 +91,7 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -3109,8 +3109,12 @@ design rules under a new name.</description>
 <element name="C38" library="SparkFun-Capacitors" package="0603-CAP" value="0.1uF" x="21.971" y="18.669">
 <attribute name="PROD_ID" value="CAP-00810" x="21.971" y="18.669" size="1.27" layer="27" font="vector" ratio="15" display="off"/>
 </element>
-<element name="R11" library="SparkFun-Resistors" package="0603-RES" value="0.27" x="27.305" y="24.13" rot="R270"/>
-<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="0.27" x="27.305" y="16.51" rot="R270"/>
+<element name="R11" library="SparkFun-Resistors" package="0603-RES" value="0.27" x="27.305" y="24.13" rot="R270">
+<attribute name="PROD_ID" value="RES-08787" x="27.305" y="24.13" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="0.27" x="27.305" y="16.51" rot="R270">
+<attribute name="PROD_ID" value="RES-08787" x="27.305" y="16.51" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="VDDIO_ARDUINO" class="2">
@@ -3530,6 +3534,8 @@ design rules under a new name.</description>
 <via x="25.527" y="18.796" extent="1-16" drill="0.254"/>
 <wire x1="24.13" y1="22.606" x2="24.13" y2="25.008" width="0.4064" layer="1"/>
 <wire x1="24.13" y1="25.008" x2="24.119" y2="25.019" width="0.4064" layer="1"/>
+<wire x1="24.119" y1="25.019" x2="22.987" y2="25.019" width="0.4064" layer="1"/>
+<via x="22.987" y="25.019" extent="1-16" drill="0.508"/>
 </signal>
 <signal name="N$13">
 <contactref element="JP18" pad="PWR"/>
@@ -5994,15 +6000,15 @@ design rules under a new name.</description>
 <approved hash="3,1,2757372736fb268b"/>
 <approved hash="3,1,21c5df1be1272190"/>
 <approved hash="19,1,e8e99bab8534f676"/>
-<approved hash="19,1,6c989fda9d046e46"/>
 <approved hash="19,1,9418675a65449606"/>
 <approved hash="19,1,e43797759535e677"/>
 <approved hash="19,1,eac9998b9734e476"/>
 <approved hash="19,1,6a58991a9b046846"/>
-<approved hash="4,1,2f2abd2ec3361cab"/>
-<approved hash="4,1,1ff98fff31d8debf"/>
+<approved hash="19,1,6c989fda9d046e46"/>
 <approved hash="4,1,caeb5a39e42e0b55"/>
 <approved hash="4,1,98cc0bbc75acab7d"/>
+<approved hash="4,1,2f2abd2ec3361cab"/>
+<approved hash="4,1,1ff98fff31d8debf"/>
 <approved hash="19,1,fed85b9a5dd9f89b"/>
 <approved hash="19,1,68b29970963867fa"/>
 <approved hash="19,1,f81a0b580d45fe07"/>
