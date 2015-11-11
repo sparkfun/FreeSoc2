@@ -90,6 +90,8 @@
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -20653,21 +20655,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="A5" x="3.81" y="4.62" dx="1.02" dy="2.16" layer="1"/>
 <smd name="A6" x="6.35" y="4.62" dx="1.02" dy="2.16" layer="1"/>
 </package>
-<package name="1X06-SMD-FEMALE-V2">
-<description>Package for 4UCONN part #19686 *UNPROVEN*</description>
-<wire x1="-7.5" y1="0.45" x2="-7.5" y2="-8.05" width="0.127" layer="21"/>
-<wire x1="7.5" y1="0.45" x2="-7.5" y2="0.45" width="0.127" layer="21"/>
-<wire x1="7.5" y1="-8.05" x2="7.5" y2="0.45" width="0.127" layer="21"/>
-<wire x1="-7.5" y1="-8.05" x2="7.5" y2="-8.05" width="0.127" layer="21"/>
-<smd name="4" x="-1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="5" x="-3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="6" x="-6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="3" x="1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="2" x="3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<smd name="1" x="6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
-<text x="7.6" y="-8.3" size="1" layer="27" rot="R180">&gt;Value</text>
-<text x="-7.4" y="-9.3" size="1" layer="25">&gt;Name</text>
-</package>
 <package name="1X06_HOLES_ONLY">
 <circle x="0" y="0" radius="0.635" width="0.127" layer="51"/>
 <circle x="2.54" y="0" radius="0.635" width="0.127" layer="51"/>
@@ -22810,6 +22797,46 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <hole x="-8.275" y="2.17" drill="3.3"/>
 <hole x="8.275" y="2.17" drill="3.3"/>
 </package>
+<package name="1X06-SMD-FEMALE-V2">
+<description>Package for 4UCONN part #19686&lt;br /&gt;
+Used on FTDI breakouts</description>
+<wire x1="-7.5" y1="0.45" x2="-7.5" y2="-8.05" width="0.127" layer="21"/>
+<wire x1="7.5" y1="0.45" x2="-7.5" y2="0.45" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-8.05" x2="7.5" y2="0.45" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-8.05" x2="7.5" y2="-8.05" width="0.127" layer="21"/>
+<smd name="4" x="-1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="5" x="-3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="6" x="-6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="3" x="1.27" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="2" x="3.81" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<smd name="1" x="6.35" y="3.425" dx="1.25" dy="3" layer="1" rot="R180"/>
+<text x="7.6" y="-8.3" size="1" layer="27" rot="R180">&gt;Value</text>
+<text x="-7.4" y="-9.3" size="1" layer="25">&gt;Name</text>
+</package>
+<package name="1X08_FEMALE_LOCK">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="19.05" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="19.05" y1="1.27" x2="19.05" y2="-1.27" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0.2286" drill="1.016" rot="R90"/>
+<pad name="2" x="2.54" y="-0.2286" drill="1.016" rot="R90"/>
+<pad name="3" x="5.08" y="0.2286" drill="1.016" rot="R90"/>
+<pad name="4" x="7.62" y="-0.2286" drill="1.016" rot="R90"/>
+<pad name="5" x="10.16" y="0.2286" drill="1.016" rot="R90"/>
+<pad name="6" x="12.7" y="-0.2286" drill="1.016" rot="R90"/>
+<text x="-1.3462" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3175" y1="-0.1905" x2="0.3175" y2="0.1905" layer="51"/>
+<rectangle x1="2.2225" y1="-0.1905" x2="2.8575" y2="0.1905" layer="51"/>
+<rectangle x1="4.7625" y1="-0.1905" x2="5.3975" y2="0.1905" layer="51"/>
+<rectangle x1="7.3025" y1="-0.1905" x2="7.9375" y2="0.1905" layer="51"/>
+<rectangle x1="9.8425" y1="-0.1905" x2="10.4775" y2="0.1905" layer="51"/>
+<rectangle x1="12.3825" y1="-0.1905" x2="13.0175" y2="0.1905" layer="51"/>
+<pad name="7" x="15.24" y="0.2286" drill="1.016" rot="R90"/>
+<pad name="8" x="17.78" y="-0.2286" drill="1.016" rot="R90"/>
+<rectangle x1="14.9225" y1="-0.1905" x2="15.5575" y2="0.1905" layer="51"/>
+<rectangle x1="17.4625" y1="-0.1905" x2="18.0975" y2="0.1905" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="M02">
@@ -23585,7 +23612,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09668"/>
+</technology>
 </technologies>
 </device>
 <device name="POGOPIN_HOLES_ONLY" package="1X06_HOLES_ONLY">
@@ -23947,6 +23976,21 @@ Standard 8-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </technologies>
 </device>
 <device name="LOCK_NO_SILK" package="1X08_LOCK_NO_SILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FEMALE_LOCK" package="1X08_FEMALE_LOCK">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -24553,7 +24597,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="2" x="0.4127" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
 <text x="-0.9525" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-0.9525" y="-1.651" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="31"/>
+<rectangle x1="-1.2192" y1="-1.016" x2="1.2192" y2="1.016" layer="31"/>
 </package>
 <package name="PAD-JUMPER-2-NO_NO_SILK">
 <smd name="1" x="-0.45" y="0" dx="0.635" dy="1.27" layer="1" cream="no"/>
@@ -24742,7 +24786,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<wire x1="0" y1="0.0305" x2="0" y2="-0.0305" width="0.5588" layer="21"/>
+<wire x1="0" y1="0.027940625" x2="0" y2="-0.027940625" width="0.381" layer="21"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <text x="-0.889" y="0.762" size="0.4064" layer="25" font="vector">&gt;NAME</text>
@@ -25240,7 +25284,7 @@ chip</description>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
+<rectangle x1="-0.1905" y1="-0.381" x2="0.1905" y2="0.381" layer="21"/>
 </package>
 <package name="0603-RES@1">
 <wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
@@ -25408,7 +25452,9 @@ chip</description>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08787"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -26056,11 +26102,11 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="signal" width="0.2032" drill="0.254">
-<clearance class="0" value="0.1524"/>
+<class number="0" name="signal" width="0.1778" drill="0.381">
+<clearance class="0" value="0.1778"/>
 </class>
 <class number="1" name="AVCC" width="0.508" drill="0.508">
-<clearance class="1" value="0.1524"/>
+<clearance class="1" value="0.1778"/>
 </class>
 <class number="2" name="ARDUINO_VCC" width="0.508" drill="0.381">
 </class>
@@ -26174,7 +26220,6 @@ This is the "EZ" version, which has limited top masking for improved ease of ass
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="PTH"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="PTH"/>
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TC26H" value="32.768kHz"/>
@@ -26304,8 +26349,8 @@ and Cypress Semiconductor</text>
 BUTTON</text>
 <text x="166.116" y="115.316" size="1.778" layer="97">USER
 LED</text>
-<text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="238.76" y="6.096" size="3.81" layer="91">13</text>
+<text x="167.64" y="7.62" size="3.81" layer="94">Mike Hord</text>
+<text x="238.76" y="6.096" size="3.81" layer="94">14</text>
 </plain>
 <instances>
 <instance part="U1" gate="G1" x="7.62" y="129.54"/>
@@ -27546,7 +27591,7 @@ better ADC performance.</text>
 Decouple/Bypass
 Caps</text>
 <text x="55.88" y="111.76" size="3.81" layer="97">Target Supply Pins</text>
-<wire x1="124.46" y1="109.22" x2="248.92" y2="109.22" width="0.3048" layer="94" style="longdash"/>
+<wire x1="124.46" y1="109.22" x2="248.92" y2="109.22" width="0.3048" layer="97" style="longdash"/>
 <wire x1="121.92" y1="185.42" x2="124.46" y2="185.42" width="0.3048" layer="94" style="longdash"/>
 <wire x1="124.46" y1="185.42" x2="124.46" y2="109.22" width="0.3048" layer="97" style="longdash"/>
 <text x="58.42" y="12.7" size="3.81" layer="97">Power Supply
@@ -27558,8 +27603,8 @@ Power supply</text>
 diode for low-V
 battery operation</text>
 <text x="35.56" y="17.78" size="1.778" layer="97">JP3 is DNP</text>
-<text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="238.252" y="6.096" size="3.81" layer="91">13</text>
+<text x="167.64" y="7.62" size="3.81" layer="94">Mike Hord</text>
+<text x="238.252" y="6.096" size="3.81" layer="94">14</text>
 <text x="121.92" y="33.528" size="0.6096" layer="97">C37 &amp; C38 to be 
 near U2 &amp;U 3 input</text>
 </plain>
@@ -27631,7 +27676,6 @@ near U2 &amp;U 3 input</text>
 <attribute name="PROD_ID" x="172.72" y="78.74" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="50.8" y="179.07"/>
-<instance part="GND5" gate="1" x="17.78" y="60.96"/>
 <instance part="C26" gate="G$1" x="185.42" y="50.8" rot="R180"/>
 <instance part="C28" gate="G$1" x="198.12" y="50.8" rot="R180"/>
 <instance part="SUPPLY9" gate="G$1" x="198.12" y="68.58"/>
@@ -27842,16 +27886,6 @@ near U2 &amp;U 3 input</text>
 <junction x="119.38" y="58.42"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
 <wire x1="119.38" y1="83.82" x2="121.92" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="17.78" y1="63.5" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="JP1" gate="G$1" pin="SHIELD"/>
-<wire x1="17.78" y1="68.58" x2="17.78" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="G$1" pin="SHIELD"/>
-<wire x1="33.02" y1="68.58" x2="17.78" y2="68.58" width="0.1524" layer="91"/>
-<junction x="17.78" y="68.58"/>
 </segment>
 <segment>
 <pinref part="GND34" gate="1" pin="GND"/>
@@ -28279,6 +28313,18 @@ near U2 &amp;U 3 input</text>
 <wire x1="198.12" y1="53.34" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="ANCHOR_POUR" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="SHIELD"/>
+<wire x1="25.4" y1="68.58" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="G$1" pin="SHIELD"/>
+<wire x1="33.02" y1="68.58" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="91.44" x2="22.86" y2="91.44" width="0.1524" layer="91"/>
+<junction x="25.4" y="91.44"/>
+<label x="22.86" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -28348,8 +28394,8 @@ Target PSoC5LP</text>
 <text x="17.78" y="56.388" size="1.016" layer="97">Normally open jumpers
 Close to connect debugger
 to target via I2C</text>
-<text x="167.64" y="7.62" size="3.81" layer="91">Mike Hord</text>
-<text x="237.744" y="6.35" size="3.81" layer="91">13</text>
+<text x="167.64" y="7.62" size="3.81" layer="94">Mike Hord</text>
+<text x="237.744" y="6.35" size="3.81" layer="94">14</text>
 </plain>
 <instances>
 <instance part="U7" gate="G1" x="5.08" y="147.32"/>
